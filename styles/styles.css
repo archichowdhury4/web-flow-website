@@ -49,3 +49,56 @@ h1{
     font-size: 15px;
     cursor: pointer;
 }
+main section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 50px;
+
+}
+.left-section{
+    color: #252432;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 50;
+}
+div p{
+    color: grey;
+}
+.right-section{
+    width: 250px;
+    border-radius: 15px;
+}
+.right-section img{
+    border-radius: 40px;
+    height: 250px;
+    width: 350px;
+}
+/*section style*/
+section{
+    background-color: lightgray;
+    margin: 50px 100px;
+}
+.user-item{
+    display: flex;
+    justify-content:space-around ;
+}
+.user-head{
+    font-size: 30px;
+    text-align: center;
+    color: #252432;
+    margin: 50px;
+}
+.user-percentage{
+    font-size: 60px;
+    color: rgb(199, 54, 199);
+    justify-content: space-around;
+}
+.user-description{
+    font-size: 20px;
+}
