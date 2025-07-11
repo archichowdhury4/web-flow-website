@@ -91,25 +91,30 @@ div p{
     background-color: lightgray;
     margin: 50px 100px;
     border-radius: 20px;
+    width: auto;
+    height: 300px;
 }
 .user-item{
     display: flex;
     justify-content:space-around ;
+    gap: 0px;
 }
 .user-head{
     font-size: 30px;
     text-align: center;
     color: #252432;
-    margin: 50px;
+    margin: 40px;
 }
 .user-percentage{
     font-size: 60px;
     color: rgb(199, 54, 199);
     justify-content: space-around;
     font-weight: bold;
+    margin: 0;
 }
 .user-description{
     font-size: 20px;
+    margin: 0;
 }
 /* review style*/
 .review-container{
@@ -162,12 +167,13 @@ div p{
 .focus-section{
  background-color: whitesmoke;
  width: auto;
- height: 600px;
+ height: 700px;
  display: block;
 }
 .text{
     text-align: center;
     color: grey;
+    margin: 30px;
 }
 .f-img{
     border-radius: 20px;
@@ -177,8 +183,9 @@ div p{
     height: 350px;
 }
 /*footer section*/
-.footeer-text{
-    font-size: 30px;
+.footer-text{
+    font-size: 40px;
+    margin-top: 150px;
 }
 .footers{
     padding: 130px 230px;
