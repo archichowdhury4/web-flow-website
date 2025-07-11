@@ -131,6 +131,9 @@ div p{
     box-shadow: 10px 10px 10px rgb(173, 172, 172)
 
 }
+.reviews:hover{
+    background-color: bisque;
+}
 .review-text-center{
     text-align: center;
     font-size: 45px;
@@ -177,7 +180,7 @@ div p{
 .footeer-text{
     font-size: 30px;
 }
-footer{
+.footers{
     padding: 130px 230px;
     display: flex;
     gap: 100px;
@@ -196,4 +199,24 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     padding: 10px 20px;
     margin: 24px;
     border: gray;
+}
+.last-nav{
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+ul{
+     display: flex;
+    list-style: none;
+    gap: 20px;
+    color: grey;
+}
+.l-head{
+    text-align: center;
+    color: #4E47FF;
+    font-size: 45px;
+}
+.l-text{
+    text-align: center;
 }
