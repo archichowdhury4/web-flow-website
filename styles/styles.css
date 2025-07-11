@@ -80,9 +80,10 @@ div p{
     width: 350px;
 }
 /*section style*/
-section{
+.section{
     background-color: lightgray;
     margin: 50px 100px;
+    border-radius: 20px;
 }
 .user-item{
     display: flex;
@@ -98,7 +99,52 @@ section{
     font-size: 60px;
     color: rgb(199, 54, 199);
     justify-content: space-around;
+    font-weight: bold;
 }
 .user-description{
     font-size: 20px;
+}
+/* review style*/
+.review-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.review{
+    padding: 30px;
+    border-radius: 5px;
+    
+}
+.reviews{
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    box-shadow: 10px 10px 10px rgb(173, 172, 172)
+
+}
+.review-text-center{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+.review-title{
+    font-size: 25px;
+}
+.review-description{
+    color: black;
+}
+.Reviewer-Name{
+    display: flex;
+    gap: 20px;
+}
+.review-img{
+    border-radius: 15px;
+}
+.r-name{
+    color: grey;
+}
+.r-date{
+    color: rgb(121, 120, 120);
 }
